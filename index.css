@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #02000A;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    
+    background-color: rgba(255,255,255,0.7);
+    font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: #af77d5;
+    color: #222;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #7e4eac;
+}
+
+span {
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.calc-section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 5px;
+
+    background: #02030F;
+    border: none;
+    border-radius: 5px;
+}
+
+.imc-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.kg-input-section, .m-input-section,
+.lb-input-section, .foot-input-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.converter-section {
+    width: 15rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background: #02030F;
+}
