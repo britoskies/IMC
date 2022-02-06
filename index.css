@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 
-    margin: 15px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,10 @@ body {
 
     background-color: #02000A;
     color: white;
+}
+
+h1 {
+    order: 0;
 }
 
 input {
@@ -47,6 +51,12 @@ span {
     border: none;
     border-radius: 5px;
     padding: 7px;
+}
+
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .calc-section {
@@ -90,4 +100,11 @@ span {
     text-align: center;
 
     background: #02030F;
+}
+
+@media only screen and (max-width: 520px){
+    .page-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
