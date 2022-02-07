@@ -1,4 +1,4 @@
-# IMC calculator
+# IMC Calculator
 
 ## Description
 
